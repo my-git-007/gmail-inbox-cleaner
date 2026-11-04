@@ -1,45 +1,94 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gmail Cleaner Privacy</title>
-<style>
-  :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --link: #0969da; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --link: #4493f8; } }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
-  h1 { font-size: 28px; margin: 0 0 8px; }
-  h2 { font-size: 18px; margin: 28px 0 4px; }
-  .muted { color: var(--muted); }
-  a { color: var(--link); }
-</style>
-</head>
-<body>
-<main>
-  <h1>Privacy policy</h1>
-  <p class="muted">Gmail Cleaner. Last updated November 2, 2026.</p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gmail Cleaner Privacy</title>
+    <style>
+      :root {
+        --bg: #ffffff;
+        --fg: #1f2328;
+        --muted: #59636e;
+        --link: #0969da;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0d1117;
+          --fg: #e6edf3;
+          --muted: #9198a1;
+          --link: #4493f8;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font:
+          16px/1.6 system-ui,
+          -apple-system,
+          'Segoe UI',
+          sans-serif;
+      }
+      main {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 48px 16px;
+      }
+      h1 {
+        font-size: 28px;
+        margin: 0 0 8px;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 28px 0 4px;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      a {
+        color: var(--link);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy policy</h1>
+      <p class="muted">Gmail Cleaner. Last updated November 2, 2026.</p>
 
-  <p>Gmail Cleaner is a personal tool used only by its owner, on their own Google account. It has no other users.</p>
+      <p>
+        Gmail Cleaner is a personal tool used only by its owner, on their own Google account. It has no other users.
+      </p>
 
-  <h2>What it accesses</h2>
-  <p><strong>Gmail</strong> (gmail.modify): it reads the sender, subject, date, labels and a short preview of messages,
-     and it adds or removes labels and moves messages to Trash. It does not send email and does not permanently delete messages.</p>
-  <p><strong>Google Drive</strong> (drive.file): it creates and updates one review spreadsheet. It can only see files it created itself.</p>
+      <h2>What it accesses</h2>
+      <p>
+        <strong>Gmail</strong> (gmail.modify): it reads the sender, subject, date, labels and a short preview of
+        messages, and it adds or removes labels and moves messages to Trash. It does not send email and does not
+        permanently delete messages.
+      </p>
+      <p>
+        <strong>Google Drive</strong> (drive.file): it creates and updates one review spreadsheet. It can only see files
+        it created itself.
+      </p>
 
-  <h2>Where the data goes</h2>
-  <p>Message details are stored only on the owner's own computer, in a local database used to make cleanup decisions.
-     Sign-in credentials are stored in the computer's encrypted Windows Credential Manager.
-     No data is sold, shared with third parties, or used for advertising.</p>
-  <p>The tool has an optional AI-suggestion feature, off by default. Only if the owner turns it on,
-     sender addresses, names and subject lines (not message bodies) are sent to Anthropic's API to suggest cleanup actions.</p>
+      <h2>Where the data goes</h2>
+      <p>
+        Message details are stored only on the owner's own computer, in a local database used to make cleanup decisions.
+        Sign-in credentials are stored in the computer's encrypted Windows Credential Manager. No data is sold, shared
+        with third parties, or used for advertising.
+      </p>
+      <p>
+        The tool has an optional AI-suggestion feature, off by default. Only if the owner turns it on, sender addresses,
+        names and subject lines (not message bodies) are sent to Anthropic's API to suggest cleanup actions.
+      </p>
 
-  <h2>Removing access</h2>
-  <p>Access can be revoked at any time at
-     <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
-     Deleting the program's folder removes all locally stored data.</p>
+      <h2>Removing access</h2>
+      <p>
+        Access can be revoked at any time at
+        <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Deleting the program's
+        folder removes all locally stored data.
+      </p>
 
-  <p><a href="index.html">Back to home</a></p>
-</main>
-</body>
+      <p><a href="index.html">Back to home</a></p>
+    </main>
+  </body>
 </html>
