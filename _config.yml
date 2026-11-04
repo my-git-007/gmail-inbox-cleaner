@@ -1,0 +1,12 @@
+# GitHub Pages publishes this repo. Only the site's pages should go out, not the tooling files.
+exclude:
+  - .gitattributes
+  - .github
+  - .husky
+  - .prettierignore
+  - .prettierrc.json
+  - _config.yml
+  - eslint.config.mjs
+  - node_modules
+  - package-lock.json
+  - package.json

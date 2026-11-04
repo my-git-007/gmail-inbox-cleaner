@@ -1,0 +1,9 @@
+dist/
+build/
+coverage/
+node_modules/
+public/
+.claude/
+.scratch/
+package-lock.json
+*.md
